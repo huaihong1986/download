@@ -63,6 +63,14 @@ public class Main extends Activity {
                 mTextView01.setText("远程安装程序(请输入URL)");
             }
         });
+        mTextView01.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View arg0){
+                mEditText01.setText("");
+                mTextView01.setText("远程安装程序");
+            }
+        });
+
+
     }
 
     /* 处理下载URL文件自定义函数 */
